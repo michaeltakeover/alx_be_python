@@ -14,7 +14,7 @@ match priority:
     case __:
         reminder = f"'{task}' invalid informations.)"
 
-if time-bound == "yes":
+if time_bound == "yes":
     reminder += " that requires immediate attention today!"
 elif time-bound == "no":
     reminder += " Consider completing it when you have free time."
