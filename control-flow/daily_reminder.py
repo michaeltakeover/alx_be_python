@@ -1,7 +1,7 @@
 #Daily Reminder
 
-task = input("Enter a task: ")
-time_bound = input("Is it time bound? (yes/no): ").lower()
+task = input("Enter your task: ")
+time-bound = input("Is it time bound? (yes/no): ").lower()
 priority = input("Priority (high/medium/low): ").lower()
 
 match priority:
@@ -14,9 +14,9 @@ match priority:
     case __:
         reminder = f"'{task}' invalid informations.)"
 
-if time_bound == "yes":
+if time-bound == "yes":
     reminder += " that requires immediate attention today!"
-elif time_bound == "no":
+elif time-bound == "no":
     reminder += " Consider completing it when you have free time."
 else:
     reminder += " But you entered an invalid time bound."
