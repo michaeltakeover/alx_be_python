@@ -1,21 +1,21 @@
 # Simple Calculator with Match Case
 #print("Enter two numbers one at a time ")
 
-first_number = int(input("Enter the first number: "))
-second_number = int(input("Enter the second number: "))
+num1 = int(input("Enter the first number: "))
+num2 = int(input("Enter the second number: "))
 
 user_choice = input("Choose the operation, (+, -, *, /): ")
 
 match user_choice:
     case "+":
-        print(f"The result is {first_number + second_number}")
+        print(f"The result is {num1 + num2}")
     case "-":
-        print(f"The result is {first_number - second_number}")
+        print(f"The result is {num1 - num2}")
     case "*":
-        print(f"The result is {first_number * second_number}")
+        print(f"The result is {num1 * num2}")
     case "/":
-        if num2 != 0:
-            print(f"The result is {first_number / second_number}")
+        if num2 == 0:
+            print(f"The result is {num1 / num2}")
         else:
             print("you cannot divide by zero")
     case _:
