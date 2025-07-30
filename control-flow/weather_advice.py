@@ -1,14 +1,14 @@
 # WEATHER_ADVICE.PY
-user_input = input("What's the weather like today ? (sunny/rainy/cold): ")
+user_input = input("What's the weather like today? (sunny/rainy/cold): ")
 
 if user_input == "sunny":
     print("Wear a t-shirt and sunglasses.")
 
 elif user_input == "rainy":
-    print("Don't forget your embrella and a raincoat")
+    print("Don't forget your umbrella and a raincoat")
 
 elif user_input == "cold":
-    print("make sure you wear a warm clothes and a scarf")
+    print("make sure to wear a warm clothes and a scarf")
 
 else:
-    print("Sorry, I don't have recommndation for this weater")
+    print("Sorry, I don't have recommndations for this weather")
