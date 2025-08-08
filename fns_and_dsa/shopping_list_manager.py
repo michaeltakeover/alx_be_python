@@ -13,7 +13,7 @@ def main():
 
         if choice == '1':
             # Prompt for and add an item
-            add = input("Enter an item to add: ").lower()
+            add = input("Enter the item to add: ").lower()
             pass
         elif choice == '2':
             # Prompt for and remove an item
